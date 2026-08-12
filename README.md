@@ -29,20 +29,20 @@ decides what's real vs. noise, investigates the riskiest items first, and either
 ## 3. Wireframes
 
 ### Screen 1 — Alert Queue
-![Alert Queue](Screens/2Alert_Queue.png)
+![Alert Queue](Screens/1-Alert_Queue.png)
 This is the landing screen. It works like a filterable inbox — filters for account, severity, and status sit up top, with summary 
 cards giving an at-a-glance health check (open alerts, critical count, alerts assigned to me, average time to resolve). 
 The table itself is kept sparse — severity, description, account, resource, age, status — because the goal here is to help someone 
 quickly decide what to open next, not show everything at once.
 
 ### Screen 2 — Alert Detail / Investigation
-![Alert Detail](Screens/1Alert_Details.png)
+![Alert Detail](Screens/2-Alert_Details.png)
 Clicking into an alert answers the three questions an engineer actually needs before acting: what's the rule that was violated,
 which compliance framework does it affect (useful for justifying urgency), and what's the blast radius — what else is exposed if 
 this stays open. Actions (assign, view remediation, mark false positive, snooze) sit right below, so there's no context-switching to act.
 
 ### Screen 3 — Remediation & Close-out
-![Remediation](Screens/3Remediation.png)
+![Remediation](Screens/3-Remediation.png)
 This is where the alert actually gets resolved. The engineer can choose one-click auto-remediation for well-understood fixes,
 follow manual steps, or add an exception for legitimate cases. A visible audit trail and rollback plan build trust in automated fixes, 
 and the flow ends with a clear confirmation that the alert is closed and the fix is recorded.
