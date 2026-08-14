@@ -6,12 +6,6 @@ Cloud security teams using a CNAPP (Cloud-Native Application Protection Platform
 
 Most alerts are not equally urgent, making it difficult for security engineers to identify the issues that require immediate attention. This creates alert fatigue, increases investigation time, and slows down remediation.
 
-### Core Question
-
-> How can a security engineer go from **"300+ open alerts"** to **"the right one fixed"** as quickly and confidently as possible?
-
----
-
 ## User Persona
 
 ### Riya — Security Engineer
